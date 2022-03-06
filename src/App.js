@@ -3,7 +3,7 @@ import './App.css';
 import {motion, AnimatePresence} from 'framer-motion';
 import {useState} from 'react';
 
-const variants = {open: {width: 'auto', opacity: 1}, closed: {transition: {opacity: {duration: 0.1}}, width: 0, opacity: 0}}
+const variants = {open:{ width: 'auto', opacity: 1}, closed: {transition: {opacity: {duration: 0.1}}, width: 0, opacity: 0}}
 
 function App() {
   const [showField, setShowField] = useState(false);
